@@ -2,12 +2,12 @@
 
 Because Minecraft does not provide an easy update mechanism for the Bedrock server, this repository addresses this issue.
 A native binary is built using GraalVM allowing a dependency-less installation. The only thing you need to do
-is to schedule the binary before staring the server.
+is to schedule the binary before starting the server.
 
 ## Usage
 Provide a backup location and the current server installation directory.
 ```bash
-mbsau ~/backup ~/minecraft-bedrock
+mbsau ~/minecraft-bedrock ~/backup
 ```
 
 ## Building
