@@ -25,7 +25,7 @@ import java.util.zip.ZipInputStream;
 @Slf4j
 public class AutoUpdater {
     public static final String BINARY_DOWNLOAD_ENDPOINT = "https://www.minecraft.net/en-us/download/server/bedrock";
-    public static final String BINARY_SERVER_ENDPOINT_PREFIX = "https://minecraft.azureedge.net/bin-linux/bedrock-server-";
+    public static final String BINARY_SERVER_ENDPOINT_PREFIX = "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-";
 
     public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
         if(Objects.nonNull(args) && args.length == 2) {
